@@ -1,6 +1,6 @@
 # Reinforcement Learning for Dynamic Inventory Management
 
-> **ADA University — Senior Design Project (SDP) · Spring 2026**  
+> **ADA University: Senior Design Project (SDP) · Spring 2026**  
 > A Deep Q-Network (DQN) agent that learns to allocate inventory across multiple clients under stochastic demand, outperforming all classical heuristic baselines.
 
 ---
