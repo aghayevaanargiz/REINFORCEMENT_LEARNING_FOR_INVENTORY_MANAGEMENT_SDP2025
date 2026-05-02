@@ -326,7 +326,7 @@ The entire pipeline, from 5.8M raw transactions → empirical Gamma parameter es
 
 Download the trained model and evaluation results from the [v1.0 Release](https://github.com/YOUR_USERNAME/rl-inventory-management/releases/tag/v1.0).
 
-Place all downloaded files into the `training_results/` folder, then run `notebooks/demo.ipynb` directly — no training required.
+Place all downloaded files into the `training_results/` folder, then run `notebooks/demo.ipynb` directly (no training required).
 
 ---
 
