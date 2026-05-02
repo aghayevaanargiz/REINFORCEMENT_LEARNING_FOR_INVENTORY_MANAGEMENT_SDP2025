@@ -335,12 +335,12 @@ Place all downloaded files into the `training_results/` folder, then run `notebo
 
 | Name | Role |
 |------|------|
-| **Laman Panakhova** *(Team Leader)* | DQN model, RL pipeline, system integration |
+| **Laman Panakhova** | DQN model, RL pipeline, system integration |
 | **Nargiz Aghayeva** | MDP formulation, reward function, Gamma demand modeling |
 | **Leyla Eynullazada** | Data preprocessing, dataset management, system setup |
 | **Aysu Azammadova** | Simulation environment, baseline agents, evaluation framework |
 
-**Supervisor:** Mr. Samir Mammadov  
+**Supervisor:** *Mr. Samir Mammadov* 
 **Institution:** ADA University  
 **Course:** Senior Design Project (SDP)  Final Year Thesis
 **Presentation Date:** 30 April 2026
