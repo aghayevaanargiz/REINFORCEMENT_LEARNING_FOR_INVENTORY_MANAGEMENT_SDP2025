@@ -1,0 +1,17 @@
+# Raw data (proprietary)
+data/*.csv
+
+# Training artifacts (large binary files)
+training_results/*.pth
+training_results/*.npy
+training_results/*.pkl
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
