@@ -2,8 +2,8 @@
 
 This folder should contain the following files to run the training pipeline:
 
-- `Sale_012025.csv` through `Sale_072025.csv` — monthly transaction records
-- `Unit.csv` — unit conversion factors
+- `Sale_012025.csv` through `Sale_072025.csv` - monthly transaction records
+- `Unit.csv` - unit conversion factors
 
 **However these files are proprietary and not distributed with this repository.**
 
