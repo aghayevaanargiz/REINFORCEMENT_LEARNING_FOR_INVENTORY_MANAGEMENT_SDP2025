@@ -19,6 +19,7 @@
 - [Running the Demo](#running-the-demo)
 - [Technical Contributions](#technical-contributions)
 - [Limitations & Future Work](#limitations--future-work)
+- [Pre-trained Model](#pre-trained-model)
 - [Team](#team)
 
 ---
