@@ -341,8 +341,11 @@ Place all downloaded files into the `training_results/` folder, then run `notebo
 | **Aysu Azammadova** | Simulation environment, baseline agents, evaluation framework |
 
 **Supervisor:** *Mr. Samir Mammadov* 
+
 **Institution:** ADA University  
+
 **Course:** Senior Design Project (SDP)  Final Year Thesis
+
 **Presentation Date:** 30 April 2026
 ---
 
