@@ -25,7 +25,7 @@
 
 ## Overview
 
-Classical inventory management relies on static heuristics — fixed reorder points, periodic review policies — that assume stable, predictable demand. In real-world supply chains, demand is **stochastic, intermittent, and heterogeneous** across clients and time periods.
+Classical inventory management relies on static heuristics such as fixed reorder points, periodic review policies that assume stable, predictable demand. In real-world supply chains, demand is **stochastic, intermittent, and heterogeneous** across clients and time periods.
 
 This project formulates **multi-client inventory allocation** as a **Markov Decision Process (MDP)** and trains a **Deep Q-Network (DQN)** to learn an adaptive allocation policy directly from interaction with a simulated environment built on 5.8 million real transactional records.
 
@@ -163,7 +163,7 @@ Real-world transactional sales data from a warehouse system covering **July 2024
 | **Transition** | Stochastic: demand sampled from fitted Gamma distribution |
 | **Discount** `γ` | 0.99 |
 
-The backlog carries over across days, making decisions deeply interdependent — this is precisely why a sequential decision-making framework (MDP/RL) is appropriate.
+The backlog carries over across days, making decisions deeply interdependent. This is precisely why a sequential decision-making framework (MDP/RL) is appropriate.
 
 ---
 
@@ -293,7 +293,7 @@ L = MSE(Q(s,a), r + γ·max Q'(s',a')) + λ_reg · ||a_t - a_{t-1}||²
 This stabilizes the learned policy — a critical property for real supply chain deployment where erratic allocation changes are operationally costly.
 
 ### 3. Reproducible Data-Driven MDP
-The entire pipeline — from 5.8M raw transactions → empirical Gamma parameter estimation → structured MDP simulation — is fully reproducible. Gamma parameters (`α`, `β`) and Bernoulli ordering probabilities are persisted to disk, making the simulation environment deterministic under a fixed seed.
+The entire pipeline, from 5.8M raw transactions → empirical Gamma parameter estimation → structured MDP simulation, is fully reproducible. Gamma parameters (`α`, `β`) and Bernoulli ordering probabilities are persisted to disk, making the simulation environment deterministic under a fixed seed.
 
 ---
 
