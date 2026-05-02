@@ -344,7 +344,6 @@ Place all downloaded files into the `training_results/` folder, then run `notebo
 **Institution:** ADA University  
 **Course:** Senior Design Project (SDP)  Final Year Thesis
 **Presentation Date:** 30 April 2026
-
 ---
 
 ## Citation
