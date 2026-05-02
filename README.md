@@ -322,7 +322,7 @@ The entire pipeline, from 5.8M raw transactions → empirical Gamma parameter es
 
 ---
 
-## 📦 Pre-trained Model
+## Pre-trained Model
 
 Download the trained model and evaluation results from the [v1.0 Release](https://github.com/YOUR_USERNAME/rl-inventory-management/releases/tag/v1.0).
 
