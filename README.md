@@ -50,6 +50,12 @@ This project formulates **multi-client inventory allocation** as a **Markov Deci
 
 ---
 
+## Live Demo
+
+**[Try the interactive demo →](https://rlsupplychain-0qqj876.public.builtwithrocket.new)**
+
+---
+
 ## Project Structure
 
 ```
